@@ -1,0 +1,23 @@
+.left{
+text-align: left;
+padding-right: 60px;
+}
+.mid{
+text-align: center;
+padding-left: 25px;
+padding-right: 25px;
+}
+.right{
+text-align: right;
+padding-left: 60px;
+}
+.footer{
+    display: flex; 
+    text-align: center;
+}
+.redlink{
+    color: red;
+}
+.listitem{
+    display: list-item;
+}

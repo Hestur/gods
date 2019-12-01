@@ -1,0 +1,42 @@
+.DKC {
+}
+
+.DKC img {
+}
+
+.title {
+  color: #77626b;
+  font-size: 1.0625em;
+  font-family: "Playfair Display", arial, helvetica, sans-serif;
+}
+
+
+.outtrobot {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+}
+
+.embed{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.nyhedsbrev {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  line-height: 1.5;
+  background-color: #fff;
+  height: 500px;
+}
+.nyhedsbrevtitle{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#instagram-embed-0{
+  background-color: red;
+  max-width: none !important;
+}

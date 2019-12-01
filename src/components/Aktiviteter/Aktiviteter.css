@@ -1,0 +1,47 @@
+/* Aktiviteter ----------------------------------- */
+
+
+.span-line{
+    width: 100%;
+    background-color: #666;
+    height: 1px;
+    display: block;
+    margin-top: 40px;
+    }
+    
+    .aktiviteter{
+    
+    }
+    
+    .toptext{
+    
+    }
+    
+    .largetext{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    
+    }
+    
+    .smalltext{
+      margin-top: 5px;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.7;
+    }
+    
+    
+    
+    /* Grid ------------------- */
+    .grid3x4{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    
+    }
+    .grid3x4 img{
+    width: 100%;
+    }

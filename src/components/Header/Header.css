@@ -1,0 +1,33 @@
+/* HEADER --------------------------- */
+.headerclass {
+    text-align: center;
+  }
+  .headerclass img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* NAV---------------------------- */
+
+.Navclass {
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+.list-item{
+  position: relative;
+  padding-bottom: 0;
+  float: left;
+  margin: 0.5em;
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 5px;
+  color: #666;
+  text-decoration: none;
+}

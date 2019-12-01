@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './components/Aktiviteter/Aktiviteter.css';
+import './components/Header/Header.css';
+import './components/Nyheder/Nyheder.css';
+import './components/Outtro/Outtro.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

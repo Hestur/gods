@@ -1,0 +1,63 @@
+/* Nyheder ---------------------------------- */
+
+.nyheder {
+}
+
+.nyhedtop {
+}
+
+.nyhedtop img {
+  padding-top: 60px;
+}
+
+.headingnyhed {
+  font-size: 2em;
+  margin-top: 5px;
+}
+
+.nyhedsmalltext {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.nyhedlink {
+  text-decoration: underline;
+  color: #666;
+}
+.link{
+  text-decoration: none;
+  color: #666;
+}
+
+.smalltitle{
+  font-size: 1.3rem;
+}
+
+.nyhedbot {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  padding-top: 60px;
+
+
+}
+.nyhedbot img{
+  width: 100%;
+}
+
+.grid1x3-left{
+  grid-column: 1/2;
+
+}
+.grid1x3-mid{
+  grid-column: 2/3;
+
+
+}
+.grid1x3-right{
+  grid-column: 3/-1;
+
+}
