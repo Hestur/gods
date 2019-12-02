@@ -31,9 +31,23 @@
   background-color: #fff;
   height: 500px;
 }
+.nyhedsbrev span{
+  color: red;
+}
+.req{
+  text-align: right;
+}
+.ptag{
+  text-align: left;;
+}
 .nyhedsbrevtitle{
   font-size: 1.2rem;
   font-weight: bold;
+}
+.inputfield{
+  border-radius: 10px 10px;
+  height: 30px;
+  width: 90%;
 }
 
 #instagram-embed-0{

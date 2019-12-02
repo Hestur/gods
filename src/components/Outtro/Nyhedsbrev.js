@@ -7,18 +7,18 @@ class Nyhedsbrev extends Component {
         return ( 
             <div className="nyhedsbrev">
             <p className="nyhedsbrevtitle">Tilmeld Nyhedsbrev</p>
-            <p><span>*</span>skal udfyldes</p>
+            <p className="req"><span>*</span>skal udfyldes</p>
             <form className="mailform">
                 Email Address: <span>*</span><br/>
-                <input  type="mailinput"/>
+                <input className="inputfield"  type="mailinput"/>
                 <br/>
                 First Name:<br/>
-                <input  type="nameinput"/>
+                <input className="inputfield"  type="nameinput"/>
                 <br/>
                 Last Name:<br/>
-                <input  type="lastnameinput"/>
+                <input className="inputfield"  type="lastnameinput"/>
                 <br/>
-                <p>Vælg nyhedsbrev:</p>
+                <p className="ptag">Vælg nyhedsbrev:</p>
                 <input type="checkbox" value="no" id="check1"></input>
                 <label for="check1">Møllerup Alle</label>
                 <br/>
@@ -27,6 +27,7 @@ class Nyhedsbrev extends Component {
                 <br/>
                 <input type="checkbox" value="noyes" id="check3"></input>
                 <label for="check1">Møllerup Hamp</label>
+                <br/>
                 <br/>
                 <button type="submit">Tilmeld</button>
            
