@@ -64,7 +64,7 @@ nav ul {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #666;
+  background-color: rgb(201, 201, 201);
 }
 
 .dropdown-content {
